@@ -1,0 +1,100 @@
+body {
+    text-align: center; 
+    overflow: hidden;
+    position: fixed;
+    /* position: absolute */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background: #caf0f8; 
+}
+
+.box {
+    margin: 0 0 50px 0; 
+    /* border: 3px solid black; */
+    box-shadow: 0px 0px 4px black; 
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 4px;
+    /* background-color: #fdfffc;  */
+    padding: 10px 15px; 
+    font-weight: 525;
+    background-image: url("airplane.jpg"); 
+    background-size: cover; 
+    color: whitesmoke; 
+    text-shadow: 0 0 6px black; 
+}
+
+#box-title { 
+    font-weight: 525;
+}
+
+#counter {
+    font-size: 36px; 
+    margin: 20px 0 20px 0; 
+}
+
+.btns-box {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    /* border: 2px solid red; */
+    margin: 0; 
+}
+
+.dissapear {
+    display: none; 
+}
+
+.increment, .save, .sum, .reset {
+    min-width: 125px; 
+    min-height: 35px; 
+    font-family: 'Roboto', sans-serif; 
+    color: whitesmoke; 
+    font-weight: 700; 
+    font-size: 15px; 
+    border: none; 
+    border-radius: none; 
+    box-shadow: 0 0 2px black; 
+}
+
+.save {
+    background: linear-gradient(to top, #e85d04 55%, #f48c06); 
+}
+
+.increment {
+    /* background: linear-gradient(to top, #023e8a 55%, #0077b6);  */
+    background: linear-gradient(to top, #1e6091 55%, #1a759f);
+    margin: 10px 0;
+}
+
+.reset {
+    background: linear-gradient(to top, #d90429 55%, #ef233c); 
+}
+
+.sum {
+    background: linear-gradient(to top, #2b9348 55%, #55a630); 
+}
+
+.save:hover {
+    background: #e85d04 ;
+}
+
+.increment:hover{
+    background: #1e6091; 
+}
+
+.reset:hover{
+    background: #d90429; 
+}
+
+.sum:hover {
+    background: #2b9348;
+}
+
+#entries {
+    margin: 20px 0 15px 0; 
+    /* border: 2px dashed green;  */
+}
+
